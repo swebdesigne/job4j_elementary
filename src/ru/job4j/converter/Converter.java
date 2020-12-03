@@ -16,5 +16,6 @@ public class Converter {
         int dollar = Converter.rubleToDollar(140);
         System.out.println(euro);
         System.out.println(dollar);
+
     }
 }
