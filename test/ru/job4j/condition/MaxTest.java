@@ -13,13 +13,13 @@ public class MaxTest {
     }
 
     @Test
-    public void whenMax3To9Then8() {
+    public void whenMax3To9Then9() {
         int result = Max.max(4, 9);
         assertThat(result, is(9));
     }
 
     @Test
-    public void whenMax5To5Then8() {
+    public void whenMax5To5Then5() {
         int result = Max.max(5, 5);
         assertThat(result, is(5));
     }
