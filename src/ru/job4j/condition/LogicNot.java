@@ -22,16 +22,11 @@ public class LogicNot {
     }
 
     public static void main(String[] args){
-        int num = 3;
         var result = new LogicNot();
-        System.out.println(result.isEven(num));
-        num = 2;
-        System.out.println(result.isPositive(num));
-        num = 1;
-        System.out.println(result.notEven(num));
-        num = -2;
-        System.out.println(result.notEvenAndPositive(num));
-        num = 4;
-        System.out.println(result.evenOrNotPositive(num));
+        System.out.println(result.isEven(3));
+        System.out.println(result.isPositive(2));
+        System.out.println(result.notEven(1));
+        System.out.println(result.notEvenAndPositive(-1));
+        System.out.println(result.evenOrNotPositive(4));
     }
 }
