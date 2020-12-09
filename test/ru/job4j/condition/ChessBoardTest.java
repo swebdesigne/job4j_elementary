@@ -27,13 +27,13 @@ public class ChessBoardTest {
 
     @Test
     public void moveElephantIs0(){
-        int way = ChessBoard.moveElephant(0,0,5,0);
+        int way = ChessBoard.moveElephant(7, 6,5,7);
         assertThat(way, is(0));
     }
 
     @Test
     public void moveElephantIs12(){
-        int way = ChessBoard.moveElephant(0, 0,5,7);
-        assertThat(way, is(12));
+        int way = ChessBoard.moveElephant(7, 5,5,7);
+        assertThat(way, is(4));
     }
 }
