@@ -30,9 +30,10 @@ public class ChessBoardTest {
         int way = ChessBoard.moveElephant(0,0,5,0);
         assertThat(way, is(0));
     }
+
     @Test
     public void moveElephantIs12(){
-        int way = ChessBoard.way(0, 0,5,7);
+        int way = ChessBoard.moveElephant(0, 0,5,7);
         assertThat(way, is(12));
     }
 }
