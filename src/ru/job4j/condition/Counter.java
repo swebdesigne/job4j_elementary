@@ -3,7 +3,7 @@ package ru.job4j.condition;
 public class Counter {
     public static int sum(int start, int end){
         int sum = 0;
-        for(int index = start; index < end; index++){
+        for(int index = start; index <= end; index++){
             sum += index;
         }
         return sum;
