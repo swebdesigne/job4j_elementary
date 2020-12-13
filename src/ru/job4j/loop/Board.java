@@ -1,0 +1,34 @@
+package ru.job4j.loop;
+
+public class Board {
+    public static void paint(int width, int height){
+        for(int row = 0; row < height; row++){
+            for(int cell = 0; cell < (width % 2 == 1 ? width : width + 1); cell++){
+                if((row % 2) == 0){
+                    if((cell % 2) == 0){
+                        System.out.print('x');
+                    }else{
+                        System.out.print(" ");
+                    }
+                }else{
+                    if((cell % 2) == 1){
+                        System.out.print('x');
+                    }else{
+                        System.out.print(" ");
+                    }
+                }
+            }
+            System.out.println();
+        }
+    }
+
+    public static void main(String[] args){
+        paint(3,3);
+        System.out.println();
+        paint(4,4);
+        System.out.println();
+        paint(5,5);
+        System.out.println();
+        paint(6,6);
+    }
+}
