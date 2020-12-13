@@ -7,6 +7,9 @@ public class Guess {
         System.out.println("Попытайтесь ее угадать");
         ch = (char) System.in.read();
         if(ch == answer) System.out.println("*** Правилльно! ***");
-        else System.out.println("... Извините, вы не угадали.");
+        else System.out.print("... Извините, нужная букава находится ");
+
+        if(ch < answer) System.out.println("ближе к концу алфавита");
+        else System.out.println("ближе к началу алфавита");
     }
 }
