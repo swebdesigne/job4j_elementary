@@ -1,7 +1,7 @@
 package ru.job4j.calculate;
 
-public class calculate {
-    public static void main(String[] args){
+class Calculate {
+    public static void main(String[] args) {
         byte mem = 1;
         System.out.println(mem);
         short size = 1;
@@ -20,8 +20,8 @@ public class calculate {
         System.out.println(gender);
         byte age = 127;
         System.out.println(age);
-        float length_1  = 8.0332F;
-        System.out.println(length_1);
+        float length1  = 8.0332F;
+        System.out.println(length1);
         boolean baby = true;
         System.out.println(baby);
         double max = 1.7e+308;

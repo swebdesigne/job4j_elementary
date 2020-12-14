@@ -17,6 +17,7 @@ public class PointTest {
         double out = Point.distance(x1, x2, y1, y2);
         Assert.assertEquals(expected, out, 0.001);
     }
+
     @Test
     public void whenX10X2Y0Y10Then() {
         int x1 = 10;
@@ -27,6 +28,7 @@ public class PointTest {
         double out = Point.distance(x1, x2, y1, y2);
         Assert.assertEquals(expected, out, 0.001);
     }
+
     @Test
     public void whenX20X5Y7Y1Then() {
         int x1 = 20;
@@ -37,6 +39,7 @@ public class PointTest {
         double out = Point.distance(x1, x2, y1, y2);
         Assert.assertEquals(expected, out, 0.001);
     }
+
     @Test
     public void whenX0X5Y7Y1Then() {
         int x1 = 0;

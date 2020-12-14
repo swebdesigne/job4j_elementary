@@ -1,7 +1,7 @@
 package ru.job4j.calculator;
 
 public class Out {
-    public static void main(String[] args){
+    public static void main(String[] args) {
        String name = "Igor";
        byte age = 33;
        String separate = " - ";

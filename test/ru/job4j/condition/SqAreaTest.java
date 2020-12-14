@@ -17,7 +17,7 @@ public class SqAreaTest {
     }
 
     @Test
-    public void whenK4P2Then0(){
+    public void whenK4P2Then0() {
         int expected = 0;
         int p = 4;
         int k = 2;
