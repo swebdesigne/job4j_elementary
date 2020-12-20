@@ -7,14 +7,12 @@ public class MatrixCheck {
     public static boolean monoHorizontal(char[][] board, int row) {
         boolean result = true;
         for (int index = 0; index < board.length; index++) {
-            for (int cell = 0; cell < board.length; cell++) {
                 if (index == row) {
-                    if (board[index][cell] != 'X') {
+                    if (board[index][board.length - 1 - index] != 'X') {
                         result = false;
                         break;
                     }
                 }
-            }
         }
         return result;
     }
@@ -22,14 +20,12 @@ public class MatrixCheck {
     public static boolean monoVertical(char[][] board, int column) {
         boolean result = true;
         for (int row = 0; row < board.length; row++) {
-            for (int cell = 0; cell < board.length; cell++) {
-                if (cell == column) {
-                    if (board[row][cell] != 'X') {
+                if ((board.length - 1) - row  == column) {
+                    if (board[row][board.length - 1 - row ] != 'X') {
                         result = false;
                         break;
                     }
                 }
-            }
         }
         return result;
     }
