@@ -6,7 +6,6 @@ import static org.junit.Assert.*;
 import static org.hamcrest.Matchers.is;
 
 public class PrimeNumberTest {
-
     @Test
     public void when5() {
         int count = PrimeNumber.calc(5);

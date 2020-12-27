@@ -6,7 +6,6 @@ import static org.junit.Assert.*;
 import static org.hamcrest.core.Is.is;
 
 public class ChessBoardTest {
-
     @Test
     public void wayIs6() {
         int way = ChessBoard.way(0, 0, 0, 6);

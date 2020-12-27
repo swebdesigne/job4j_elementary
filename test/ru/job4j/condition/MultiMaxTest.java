@@ -5,7 +5,6 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 import static org.hamcrest.core.Is.is;
 public class MultiMaxTest {
-
     @Test
     public void whenSecondMax() {
         int result = MultiMax.max(3, 4, 2);

@@ -6,7 +6,6 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class FitTest {
-
     @Test
     public void manWeight180Then92() {
         short in = 180;

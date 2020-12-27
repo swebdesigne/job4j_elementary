@@ -6,7 +6,6 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class PointTest {
-
     @Test
     public void whenX0X2Y0Y10Then() {
         int x1 = 0;

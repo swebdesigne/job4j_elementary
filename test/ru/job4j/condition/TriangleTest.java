@@ -5,7 +5,6 @@ import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.*;
 
 public class TriangleTest {
-
     @Test
     public void whenExist() {
         boolean result = Triangle.exists(2.0, 2.0, 2.0);

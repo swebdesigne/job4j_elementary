@@ -7,7 +7,6 @@ import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
 
 public class FindLoopTest {
-
     @Test
     public void whenArrayHas2Then1() {
         int el = 2;

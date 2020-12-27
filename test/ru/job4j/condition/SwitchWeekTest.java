@@ -6,7 +6,6 @@ import static org.junit.Assert.*;
 import static org.hamcrest.core.Is.is;
 
 public class SwitchWeekTest {
-
     @Test
     public void when1ThenMonday() {
         var day = new SwitchWeek();

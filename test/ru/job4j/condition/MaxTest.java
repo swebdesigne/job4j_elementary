@@ -5,7 +5,6 @@ import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.*;
 
 public class MaxTest {
-
     @Test
     public void whenMax8To7Then8() {
         int result = Max.max(8, 7);

@@ -6,7 +6,6 @@ import static org.junit.Assert.*;
 import static org.hamcrest.Matchers.is;
 
 public class FactorialTest {
-
     @Test
     public void whenCalculateFactorialForFiveThenOneHundreedTwenty() {
         int rsl = Factorial.calc(5);

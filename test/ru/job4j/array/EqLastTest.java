@@ -7,7 +7,6 @@ import static ru.job4j.array.EqLast.check;
 import org.junit.Test;
 
 public class EqLastTest {
-
     @Test
     public void whenEq() {
         int[] left = {1, 2, 3};

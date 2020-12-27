@@ -6,7 +6,6 @@ import static org.junit.Assert.*;
 import static org.hamcrest.Matchers.is;
 
 public class CounterTest {
-
     @Test
     public void whenS0ToF10Then55() {
         int rsl = Counter.sumByEven(0, 10);

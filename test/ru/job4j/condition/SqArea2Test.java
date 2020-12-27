@@ -6,7 +6,6 @@ import static org.hamcrest.Matchers.is;
 import static org.junit.Assert.*;
 
 public class SqArea2Test {
-
     @Test
     public void whenp4k1s1() {
         int k = 1;

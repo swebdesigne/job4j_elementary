@@ -8,7 +8,6 @@ import static org.junit.Assert.*;
 import static org.hamcrest.Matchers.is;
 
 public class ThreeMaxTest {
-
     @Test
     public void firstMax() {
         int rsl = ThreeMax.max(10, 5, 1);

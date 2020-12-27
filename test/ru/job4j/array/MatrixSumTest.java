@@ -6,7 +6,6 @@ import static org.junit.Assert.*;
 import static org.hamcrest.Matchers.is;
 
 public class MatrixSumTest {
-
     @Test
     public void whenSingle() {
         assertThat(
