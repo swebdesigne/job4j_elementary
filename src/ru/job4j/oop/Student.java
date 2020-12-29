@@ -6,16 +6,16 @@ public class Student {
         petya.music();
         petya.music();
         petya.music();
-        petya.song("I believe I can fly");
-        petya.song("I believe I can fly");
-        petya.song("I believe I can fly");
+        petya.song();
+        petya.song();
+        petya.song();
     }
 
     public void music() {
         System.out.println("Tra tra tra");
     }
 
-    public void song(String text) {
-        System.out.println(text);
+    public void song() {
+        System.out.println("I believe I can fly");
     }
 }
