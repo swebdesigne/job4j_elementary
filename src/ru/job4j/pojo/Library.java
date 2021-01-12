@@ -14,7 +14,7 @@ public class Library {
         }
     }
 
-    public void printdeterminedValue(Book[] books) {
+    public void printDeterminedValue(Book[] books) {
         for (int index = 0; index < books.length; index++) {
             Book b = books[index];
             if ("Clean code".equals(b.getName())) {
@@ -47,6 +47,6 @@ public class Library {
         print.print(books);
         System.out.println();
         System.out.println("Print book`s value where name equal `Clean code`");
-        print.printdeterminedValue(books);
+        print.printDeterminedValue(books);
     }
 }
