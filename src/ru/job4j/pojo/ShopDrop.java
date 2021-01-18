@@ -7,9 +7,9 @@ public class ShopDrop {
                 products[index] = products[i];
                 products[i] = null;
             } else if (i < index) {
-                products[index] = null;
             }
         }
+        products[index] = null;
         return products;
     }
 
