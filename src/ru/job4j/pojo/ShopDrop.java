@@ -2,14 +2,16 @@ package ru.job4j.pojo;
 
 public class ShopDrop {
     public static Product[] leftShift(Product[] products, int index) {
+        int num = 0;
         for (int i = 0; i < products.length; i++) {
-            if (i > index) {
+            if (index < i) {
                 products[index] = products[i];
-                products[i] = null;
-            } else if (i < index) {
+                num = i;
+            } else {
+                num = index;
             }
         }
-        products[index] = null;
+        products[num] = null;
         return products;
     }
 
