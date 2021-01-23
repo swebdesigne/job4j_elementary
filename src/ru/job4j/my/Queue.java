@@ -12,7 +12,7 @@ public class Queue {
     // placing simbol to a queue
     void put(char ch) {
         if (putloc == q.length) {
-            System.out.printf("- The queue is filled");
+            System.out.println("- The queue is filled");
             return;
         }
         q[putloc++] = ch;
@@ -20,7 +20,7 @@ public class Queue {
 
     public char get() {
         if (getloc == putloc) {
-            System.out.printf("- The queue is empty");
+            System.out.println("- The queue is empty");
             return (char) 0;
         }
         return q[getloc++];
@@ -31,23 +31,23 @@ public class Queue {
         Queue smallQ = new Queue(4);
         char ch;
         int i;
-        System.out.printf("Used the big Q queue to save the alphabet");
+        System.out.println("Used the big Q queue to save the alphabet");
         for (i = 0; i < 26; i++)
             bigQ.put((char) ('A' + i));
-        System.out.printf("Getting and showing the letters of the simbols from queue bigQ");
+        System.out.println("Getting and showing the letters of the simbols from queue bigQ");
         for (i = 0; i < 26; i++) {
             ch = bigQ.get();
-            if (ch != (char) 0) System.out.printf("ch");
+            if (ch != (char) 0) System.out.println("ch");
         }
-        System.out.printf("\n");
-        System.out.printf("Using queue smallQ for generation the errors");
+        System.out.println("\n");
+        System.out.println("Using queue smallQ for generation the errors");
         for (i = 0; i < 5; i++) {
-            System.out.printf("Tried to save it " + (char) ('Z' - 1));
+            System.out.println("Tried to save it " + (char) ('Z' - 1));
             smallQ.put((char) ('Z' - i));
-            System.out.printf("");
+            System.out.println("");
         }
-        System.out.printf("");
-        System.out.printf("Content of the queue smallQ: ");
+        System.out.println("");
+        System.out.println("Content of the queue smallQ: ");
         for (i = 0; i < 5; i++) {
             ch = smallQ.get();
             if (ch != (char) 0) System.out.println(ch);
