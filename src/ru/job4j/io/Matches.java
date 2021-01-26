@@ -13,7 +13,7 @@ public class Matches {
             System.out.println(player + " enter a number from 1 to 3");
             int matches = Integer.parseInt(input.nextLine());
             turn = !turn;
-            while ((count - matches) < 0 || matches > 3) {
+            while ((count - matches) < 0 || matches > 3 || matches < 1) {
                 System.out.println("Please, take the less count matches");
                 input.nextLine();
                 System.out.println("Please, take the less count matches");
