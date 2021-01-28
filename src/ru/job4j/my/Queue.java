@@ -26,7 +26,7 @@ public class Queue {
         return q[getloc++];
     }
 
-    public static void main(String[] args) {
+    public static void main(StringMy[] args) {
         Queue bigQ = new Queue(100);
         Queue smallQ = new Queue(4);
         char ch;

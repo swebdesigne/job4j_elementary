@@ -1,7 +1,7 @@
 package ru.job4j.my;
 
 public class Spaces {
-    public static void main(String[] args) throws java.io.IOException {
+    public static void main(StringMy[] args) throws java.io.IOException {
         {
             char ch;
             int spaces = 0;

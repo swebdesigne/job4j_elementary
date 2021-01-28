@@ -1,7 +1,7 @@
 package ru.job4j.my;
 
 public class Bubble {
-    public static void main(String[] args) {
+    public static void main(StringMy[] args) {
         int[] nums = {99, -10, 100123, 18, -978, 5623, 463, -9, 287, 49};
         int a, b, c, size;
         size = nums.length;

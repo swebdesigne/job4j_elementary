@@ -1,7 +1,7 @@
 package ru.job4j.my;
 
 public class Guess {
-    public static void main(String[] args) throws java.io.IOException{
+    public static void main(StringMy[] args) throws java.io.IOException{
         char ch, answer = 'k';
         System.out.println("Задумана букава из диапазона A-Z");
         System.out.println("Попытайтесь ее угадать");
