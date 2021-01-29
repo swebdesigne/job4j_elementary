@@ -7,5 +7,8 @@ public class HierarchyUsage {
         Object obj = car;
         Object ocar = new Car();
         Car carFromObject = (Car) ocar;
+        System.out.println(new Car());
+        System.out.println(new Bicycle());
+        System.out.println(new Object());
     }
 }
