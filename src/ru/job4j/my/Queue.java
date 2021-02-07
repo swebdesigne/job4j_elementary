@@ -1,8 +1,8 @@
 package ru.job4j.my;
 
 public class Queue {
-    char q[];
-    int putloc, getloc;
+    private char[] q;
+    private int putloc, getloc;
 
     public Queue(int size) {
         q = new char[size];
