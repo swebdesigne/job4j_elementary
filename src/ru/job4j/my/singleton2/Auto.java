@@ -4,12 +4,10 @@ public class Auto {
     Car car;
 
     public Car data(String name) {
-        switch (name) {
-            case "Mercedes" : car = new Mercedes();
-            break;
-            case "Toyota" : car = new Toyota();
-            break;
-            default: car = new Car() {
+        return car = switch (name) {
+            case "Mercedes" -> new Mercedes();
+            case "Toyota" -> new Toyota();
+            default -> new Car() {
                 @Override
                 public String name() {
                     return "Any car";
@@ -20,8 +18,6 @@ public class Auto {
                     return "Better have one car than no cars";
                 }
             };
-            break;
-        }
-        return car;
+        };
     }
 }
