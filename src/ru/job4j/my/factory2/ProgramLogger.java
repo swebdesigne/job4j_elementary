@@ -1,4 +1,4 @@
-package ru.job4j.my.singleton;
+package ru.job4j.my.factory2;
 
 public final class ProgramLogger {
     private static ProgramLogger programLogger;
